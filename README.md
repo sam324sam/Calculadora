@@ -22,7 +22,7 @@ Este proyecto es una calculadora interactiva desarrollada durante el primer año
 5. Observa el historial de operaciones en la barra lateral derecha.
 
 ## Estructura del Proyecto
-- `index.html`: Estructura principal de la calculadora.
+- `Calculador.html`: Estructura principal de la calculadora.
 - `Calculador.css`: Estilos para el diseño visual del proyecto.
 - `Calculador.js`: Lógica del funcionamiento de la calculadora y gestión del historial.
 
