@@ -1,0 +1,100 @@
+body {
+    margin: 10px;
+    font-size: 16PX;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+.contenedor{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(190, 191, 196);
+    border-radius: 20px;
+    padding: 2%;
+    min-width: 700px;
+}
+
+#calculadora {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-gap: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: auto;
+}
+
+#resultados {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    grid-column: 1/4;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.numeros {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.operadores {
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #979997;
+    font-weight: bold;
+}
+
+#borrar {
+    background-color: rgb(255, 120, 120);
+    font-weight: bold;
+}
+
+#igual {
+    background-color: rgb(98, 143, 211);
+    border: 2px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.operadores,
+.numeros,
+#borrar,
+#igual {
+    border: 2px solid black;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.numeros:hover,
+.operadores:hover,
+#borrar:hover,
+#igual:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#historial {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 515px;
+    text-align: right;
+    border: 3px solid black;
+    border-radius: 6px;
+    overflow-y: auto;
+    margin-right: auto;
+}
+
+#texto {
+    margin: 20px;
+}
