@@ -2,6 +2,10 @@
 
 Este proyecto es una calculadora interactiva desarrollada durante el primer año del curso de **Desarrollo de Aplicaciones Web (DAW)**. La aplicación permite realizar operaciones básicas y mantiene un historial de las operaciones realizadas.
 
+<div align="center">
+  <img src="Calculadora.png" alt="Imagen de la calculadora js" width="300">
+</div>
+
 ## Funcionalidades
 - **Operaciones básicas:** Suma, resta, multiplicación y división.
 - **Historial:** Visualiza las operaciones realizadas en una barra lateral.
