@@ -1,3 +1,5 @@
+![Estado](https://img.shields.io/badge/Estado-Acabado-brightgreen?style=plastic)
+
 # Calculadora Interactiva
 
 Este proyecto es una calculadora interactiva desarrollada durante el primer año del curso de **Desarrollo de Aplicaciones Web (DAW)**. La aplicación permite realizar operaciones básicas y mantiene un historial de las operaciones realizadas.
